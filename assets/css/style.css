@@ -1123,7 +1123,7 @@ a{
   flex-direction: row;
 }
 .container .contents {
-  width: 730px;
+  width: 720px;
 }
 .container .table-of-contents {
   padding: 10px;
@@ -1136,7 +1136,7 @@ a{
   height: fit-content;
   margin-left: 30px;
 }
-.container .table-of-contents strong {
+.container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
   color: #f4f416;
