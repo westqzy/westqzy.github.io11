@@ -1143,7 +1143,7 @@ a{
 }
 .container .table-of-contents ul {
   margin-left: 10px;
-  list-style-type: revert;
+  /* list-style-type: revert; */
   font-size: 18px;
   line-height: 24px;
   color: #ffe015;
