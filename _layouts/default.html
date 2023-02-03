@@ -9,6 +9,12 @@
 <!-- 页面主体 -->
 {{ content }}
 
+{% if page.toc==true %}
+<aside class="toc">
+  {% include toc.html html=content %}
+</aside>
+{% endif %}
+
 <!-- 引用wow.js的动画效果 -->
 <script src="/assets/js/wow.js"></script>
 <script>
@@ -31,4 +37,11 @@
 </script>
 
 </body>
+
+{% if page.toc==true %}
+<script>
+  document.getElementById("main").classList.add("withtoc");
+</script>
+{% endif %}
+
 </html>
