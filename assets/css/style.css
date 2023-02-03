@@ -1117,7 +1117,7 @@ a{
 
 
 .container {
-  width: 1120px;
+  width: 1130px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -1126,7 +1126,7 @@ a{
   width: 720px;
 }
 .container .table-of-contents {
-  padding: 10px;
+  padding: 50px;
   border-left: 2px solid #efefef;
   width: 280px;
   position: -webkit-sticky;
@@ -1134,7 +1134,7 @@ a{
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 100px;
+  margin-left: 30px;
 }
 .container .table-of-contents aa {
   font-family: fantasy;
