@@ -1139,17 +1139,17 @@ a{
 .container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
-  color: #f4f416;
+  color: rgb(244, 192, 22);
 }
 .container .table-of-contents ul {
   margin-left: 10px;
   list-style-type: revert; 
   font-size: 18px;
   line-height: 24px;
-  color: #ffe015;
+  color: #d4ff15;
 }
 .container .table-of-contents ul a {
-  color: #12c205;
+  color: #15c7fd;
 }
 .container .table-of-contents ul a:hover {
   color: #24fff4;
