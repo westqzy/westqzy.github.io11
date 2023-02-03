@@ -1138,6 +1138,7 @@ a{
 }
 
 .container .table-of-contents aa {
+  margin-left: 4px;
   font-family: fantasy;
   font-size: 24px;
   color: rgb(244, 192, 22);
