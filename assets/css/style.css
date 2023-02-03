@@ -1117,7 +1117,7 @@ a{
 
 
 .container {
-  width: 1130px;
+  width: 1100px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -1126,7 +1126,7 @@ a{
   width: 720px;
 }
 .container .table-of-contents {
-  padding: 50px;
+  padding: 10px;
   border-left: 2px solid #efefef;
   width: 280px;
   position: -webkit-sticky;
@@ -1134,7 +1134,7 @@ a{
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 30px;
+  margin-left: 80px;
 }
 .container .table-of-contents aa {
   font-family: fantasy;
@@ -1156,7 +1156,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1130px) {
+@media screen and (max-width: 1100px) {
   .post-content .container {
     width: 100%;
   }
