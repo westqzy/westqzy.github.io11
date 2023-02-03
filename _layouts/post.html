@@ -30,6 +30,12 @@
     {% endif %}
   {% endif %}
 
+    {% if page.toc==true %}
+    <aside class="toc">
+      {% include toc.html html=content %}
+    </aside>
+    {% endif %}
+
   <!-- 文章内容 -->
   {{ page.content }}
   <!-- 引入share模块 -->
@@ -67,4 +73,13 @@
 </script>
 <script src="/assets/js/main.js"></script>
 </body>
+
+
+{% if page.toc==true %}
+<script>
+  document.getElementById("main").classList.add("withtoc");
+</script>
+{% endif %}
+
+
 </html>
