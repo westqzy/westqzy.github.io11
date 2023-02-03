@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'QZY的快乐生活'
+title: 'QZY Blog'
 description: 'Document My Growth'
-keywords: 'Aim At Absolute Perfection!'
+keywords: 'QZY, Blog'
 url: 'https://abc.github.io' # your host
 
 # nav 中文字符空格：&emsp;
