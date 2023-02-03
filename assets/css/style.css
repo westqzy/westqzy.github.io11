@@ -1138,14 +1138,13 @@ a{
 }
 
 .container .table-of-contents aa {
-  padding-left: 8;
   font-family: fantasy;
   font-size: 24px;
-  color: rgb(244, 192, 22);
+  color: rgb(252, 0, 25);
 }
 .container .table-of-contents ul {
   list-style: none;
-  padding-left: 8;
+  padding-left: 5;
   margin-left: 5px;
   list-style-type: revert; 
   font-size: 18px;
