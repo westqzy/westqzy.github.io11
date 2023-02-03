@@ -1123,7 +1123,7 @@ a{
   flex-direction: row;
 }
 .container .contents {
-  width: 780px;
+  width: 730px;
 }
 .container .table-of-contents {
   padding: 10px;
@@ -1134,16 +1134,17 @@ a{
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 230px;
+  margin-left: 30px;
 }
-.container .table-of-contents h2 {
+.container .table-of-contents strong {
   font-family: fantasy;
+  font-size: 24px;
   color: #f4f416;
 }
 .container .table-of-contents ul {
   margin-left: 20px;
   list-style-type: revert;
-  font-size: 20px;
+  font-size: 18px;
   line-height: 24px;
   color: #ffe015;
 }
