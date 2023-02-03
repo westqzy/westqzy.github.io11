@@ -1,7 +1,7 @@
 # Site settings 配置站点
-title: 'your awesome title'
-description: 'your web description'
-keywords: 'your web keywords, another keywords'
+title: 'QZY's Journey'
+description: 'Document My Growth'
+keywords: 'Aim At Absolute Perfection!'
 url: 'https://abc.github.io' # your host
 
 # nav 中文字符空格：&emsp;
@@ -17,7 +17,7 @@ author: true
 name: '戚子越'
 NickName: '七八九'
 webtitle: 'westqzy.github.io'
-bio: 'your awesome bio'
+bio: '你为啥看我'
 about: false
 aboutyou: 'your introduction'
 portraits: '/assets/profile.jpeg' # your portraits image file path
