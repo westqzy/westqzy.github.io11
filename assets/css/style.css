@@ -1117,7 +1117,7 @@ a{
 
 
 .container {
-  width: 1070px;
+  width: 1020px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -1126,7 +1126,7 @@ a{
   width: 740px;
 }
 .container .table-of-contents {
-  padding: 10px;
+  padding: 0px;
   border-left: 2px solid #efefef;
   width: 280px;
   position: -webkit-sticky;
@@ -1134,7 +1134,7 @@ a{
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 30px;
+  margin-left: 40px;
 }
 .container .table-of-contents aa {
   font-family: fantasy;
@@ -1143,7 +1143,7 @@ a{
 }
 .container .table-of-contents ul {
   margin-left: 10px;
-  list-style-type: none; 
+  list-style-type: revert; 
   font-size: 18px;
   line-height: 24px;
   color: #ffe015;
@@ -1156,7 +1156,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1020px) {
   .post-content .container {
     width: 100%;
   }
