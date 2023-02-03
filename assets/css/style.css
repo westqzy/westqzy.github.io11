@@ -1134,7 +1134,7 @@ a{
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 30px;
+  margin-left: 50px;
 }
 .container .table-of-contents h2 {
   font-family: fantasy;
@@ -1145,10 +1145,10 @@ a{
   list-style-type: revert;
   font-size: 14px;
   line-height: 24px;
-  color: #005b81;
+  color: #6b3aba;
 }
 .container .table-of-contents ul a {
-  color: #005b81;
+  color: #12c205;
 }
 .container .table-of-contents ul a:hover {
   color: #e32e00;
