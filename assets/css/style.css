@@ -1122,6 +1122,9 @@ a{
   display: flex;
   flex-direction: row;
 }
+.container .contents {
+  width: 720px;
+}
 .container .table-of-contents {
   padding: 10px;
   border-left: 2px solid #efefef;

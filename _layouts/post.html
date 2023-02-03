@@ -31,17 +31,20 @@
   {% endif %}
 
     {% if page.toc==true %}
-      <div class="container">    
+      <div class="container">  
+        <div class="contents">  
+            {{ page.content }}
+        </div>   
         <div class="table-of-contents">
           <b>Contents</b>
           {% include toc.html html=content %}
         </div>
       </div>
     {% else %}
+    <!-- 文章内容 -->
+    {{ page.content }}
     {% endif %}
 
-  <!-- 文章内容 -->
-  {{ page.content }}
 
   <!-- 引入share模块 -->
   {% include share.html %}
