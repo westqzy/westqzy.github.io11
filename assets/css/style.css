@@ -1117,13 +1117,13 @@ a{
 
 
 .container {
-  width: 1070px;
+  width: 1060px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
 .container .contents {
-  width: 740px;
+  width: 730px;
 }
 .container .table-of-contents {
   padding: 10px;
@@ -1143,7 +1143,7 @@ a{
 }
 .container .table-of-contents ul {
   margin-left: 10px;
-  /* list-style-type: revert; */
+  list-style-type: none; 
   font-size: 18px;
   line-height: 24px;
   color: #ffe015;
@@ -1156,7 +1156,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1070px) {
+@media screen and (max-width: 1060px) {
   .post-content .container {
     width: 100%;
   }
