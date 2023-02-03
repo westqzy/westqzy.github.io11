@@ -1112,8 +1112,30 @@ a{
 }
 
 
-@media screen and (max-width:2200px) and (min-width:1200px){
-  .withtoc{
+@media screen and (max-width: 2200px) and (min-width: 1200px) {
+  .withtoc {
     padding-left: 260px;
   }
+}
+
+
+.toc {
+  width: 240px;
+  height: 100%;
+  left: 30%;
+  position: fixed;
+  z-index: 4;
+  padding: 60px 20px 0 20px;
+}
+.toc:before {
+  content: "目录";
+  margin: 0 0 1em 1em;
+  font-weight: 700;
+  font-size: 1.2em;
+  display: block;
+  padding-bottom: 0.6em;
+  border-bottom: 3px double #f1f3f5;
+}
+.toc li:before {
+  content: "";
 }
