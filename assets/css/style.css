@@ -1136,13 +1136,14 @@ a{
   height: fit-content;
   margin-left: 40px;
 }
+
 .container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
   color: rgb(244, 192, 22);
 }
 .container .table-of-contents ul {
-  margin-left: 10px;
+  margin-left: 4px;
   list-style-type: revert; 
   font-size: 18px;
   line-height: 24px;
