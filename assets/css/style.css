@@ -1128,13 +1128,13 @@ a{
 .container .table-of-contents {
   padding: 10px;
   border-left: 2px solid #efefef;
-  width: 280px;
+  width: 180px;
   position: -webkit-sticky;
   position: sticky;
   top: 80px;
   margin-bottom: 80px;
   height: fit-content;
-  margin-left: 30px;
+  margin-left: 230px;
 }
 .container .table-of-contents h2 {
   font-family: fantasy;
