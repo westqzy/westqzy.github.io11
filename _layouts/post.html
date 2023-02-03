@@ -31,12 +31,10 @@
   {% endif %}
 
     {% if page.toc==true %}
-      <div class="container">  
-        <div class="contents">  
-            {{ page.content }}
-        </div>   
+      <div class="container">    
+            {{ page.content }}  
         <div class="table-of-contents">
-          <h2>Contents</h2>
+          <b>Contents</b>
           {% include toc.html html=content %}
         </div>
       </div>
