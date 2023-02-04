@@ -1110,7 +1110,7 @@ a{
 
 
 .container {
-  width: 800px;
+  width: 1060px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
@@ -1152,7 +1152,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 800px) {
   .post-content .container {
     background-color: blue;
     width: 100%;
