@@ -1109,16 +1109,16 @@ a{
 
 
 
-#media .container {
+.container {
   width: 1060px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
-#media .container .contents {
+.container .contents {
   width: 740px;
 }
-#media .container .table-of-contents {
+.container .table-of-contents {
   padding: 0px;
   border-left: 2px solid #efefef;
   width: 280px;
@@ -1130,12 +1130,12 @@ a{
   margin-left: 40px;
 }
 
-#media .container .table-of-contents aa {
+.container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
   color: hsla(38, 100%, 49%, 0.718);
 }
-#media .container .table-of-contents ul {
+.container .table-of-contents ul {
   list-style: none;
   padding-left: 0;
   margin-left: 25px;
@@ -1144,10 +1144,10 @@ a{
   line-height: 24px;
   color: #ff0505;
 }
-#media .container .table-of-contents ul a {
+.container .table-of-contents ul a {
   color: #15c7fd;
 }
-#media .container .table-of-contents ul a:hover {
+.container .table-of-contents ul a:hover {
   color: #24fff4;
   text-decoration: underline;
 }
