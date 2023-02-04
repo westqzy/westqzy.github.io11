@@ -20,13 +20,6 @@
 
 
 <div class="markdown-body fadeInUp animated">
-    <!-- 网易云 -->
-    {% if page.music-id %}
-    <div class="postpage-subtitle" style="border-left: 8px solid #ffff19; border-right: 8px solid #ffff19;">
-      {% include cloud-music.html %}
-    </div>
-    {% endif %} 
-
   {% if page.subtitle %}
     {% if page.color.size==0 or page.color==nil %}
       <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
@@ -38,6 +31,13 @@
       </div>
     {% endif %}
   {% endif %}
+
+      <!-- 网易云 -->
+      {% if page.music-id %}
+      <div class="postpage-subtitle" style="border-left: 8px solid #ffff19; border-right: 8px solid #ffff19;">
+        {% include cloud-music.html %}
+      </div>
+      {% endif %} 
     
     <!-- toc -->
     {% if page.toc==true %}
