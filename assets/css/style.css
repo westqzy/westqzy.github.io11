@@ -1114,7 +1114,6 @@ a{
   margin: 0 auto;
   display: flex;
   flex-direction: row;
-  display: none;
 }
 .container .contents {
   width: 740px;
@@ -1129,6 +1128,7 @@ a{
   margin-bottom: 80px;
   height: fit-content;
   margin-left: 40px;
+  display: none;
 }
 
 .container .table-of-contents aa {
