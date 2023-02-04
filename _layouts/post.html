@@ -16,6 +16,12 @@
 {% include boot.html %}
 <!-- 引入博文顶部样式 -->
 {% include post-title.html %}
+
+    <!-- 网易云 -->
+    {% if page.music-id %}
+      {% include cloud-music.html %}
+    {% endif %} 
+    
 <div class="markdown-body fadeInUp animated">
 
   {% if page.subtitle %}
@@ -30,10 +36,6 @@
     {% endif %}
   {% endif %}
     
-    <!-- 网易云 -->
-    {% if page.music-id %}
-      {% include cloud-music.html %}
-    {% endif %} 
     <!-- toc -->
     {% if page.toc==true %}
       <div class="container">  

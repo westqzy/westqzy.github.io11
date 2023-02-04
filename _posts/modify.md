@@ -1,3 +1,4 @@
+```html
 {% if page.toc==true %}
 <div class="container">  
     <div class="contents">  
@@ -11,3 +12,4 @@
 {% else %}
 {{ page.content }}
 {% endif %}
+```
