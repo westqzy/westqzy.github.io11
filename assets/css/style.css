@@ -1109,19 +1109,16 @@ a{
 
 
 
-.container {
-  display: block;
+#media .container {
   width: 1060px;
   margin: 0 auto;
   display: flex;
   flex-direction: row;
 }
-.container .contents {
-  display: block;
+#media .container .contents {
   width: 740px;
 }
-.container .table-of-contents {
-  display: block;
+#media .container .table-of-contents {
   padding: 0px;
   border-left: 2px solid #efefef;
   width: 280px;
@@ -1133,14 +1130,12 @@ a{
   margin-left: 40px;
 }
 
-.container .table-of-contents aa {
-  display: block;
+#media .container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
   color: hsla(38, 100%, 49%, 0.718);
 }
-.container .table-of-contents ul {
-  display: block;
+#media .container .table-of-contents ul {
   list-style: none;
   padding-left: 0;
   margin-left: 25px;
@@ -1149,29 +1144,24 @@ a{
   line-height: 24px;
   color: #ff0505;
 }
-.container .table-of-contents ul a {
-  display: block;
+#media .container .table-of-contents ul a {
   color: #15c7fd;
 }
-.container .table-of-contents ul a:hover {
-  display: block;
+#media .container .table-of-contents ul a:hover {
   color: #24fff4;
   text-decoration: underline;
 }
 
 @media screen and (max-width: 1060px) {
   .post-content .container {
-    display: block;
     width: 100%;
   }
   .post-content .container .contents {
-    display: block;
     width: 100%;
     float: none;
     margin: 0 auto;
   }
   .post-content .container .table-of-contents {
-    display: block;
     display: none;
   }
 }
