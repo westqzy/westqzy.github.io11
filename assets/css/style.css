@@ -1154,13 +1154,12 @@ a{
 
 @media screen and (max-width: 800px) {
   .post-content .container {
-    width: 800px;
-    background-color: blue;
     width: 100%;
   }
   .post-content .container .contents {
     width: 100%;
     float: none;
+    color: blue;
     margin: 0 auto;
   }
   .post-content .container .table-of-contents {
