@@ -1152,15 +1152,13 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600) {
+@media screen and (max-width: 10000) {
   .post-content .container {
     width: 100%;
-    display: none;
   }
   .post-content .container .contents {
     width: 100%;
     float: none;
-    color: blue;
     margin: 0 auto;
 
   }
