@@ -17,13 +17,13 @@
 <!-- 引入博文顶部样式 -->
 {% include post-title.html %}
 
+
+
+<div class="markdown-body fadeInUp animated">
     <!-- 网易云 -->
     {% if page.music-id %}
       {% include cloud-music.html %}
     {% endif %} 
-    
-<div class="markdown-body fadeInUp animated">
-
   {% if page.subtitle %}
     {% if page.color.size==0 or page.color==nil %}
       <div class="postpage-subtitle" style="border-left: 8px solid #9A85FF; border-right: 8px solid #9A85FF;">
