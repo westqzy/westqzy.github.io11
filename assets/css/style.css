@@ -1152,7 +1152,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1060px) {
   .post-content .container {
     width: 100%;
   }
@@ -1161,6 +1161,7 @@ a{
     float: none;
     color: blue;
     margin: 0 auto;
+    display: none;
   }
   .post-content .container .table-of-contents {
     display: none;
