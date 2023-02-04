@@ -1144,8 +1144,8 @@ a{
 }
 .container .table-of-contents ul {
   list-style: none;
-  padding-left: 0;
-  margin-left: 10px;
+  padding-left: 1;
+  margin-left: 15px;
   list-style-type: revert; 
   font-size: 18px;
   line-height: 24px;
