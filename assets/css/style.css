@@ -1117,9 +1117,11 @@ a{
   flex-direction: row;
 }
 .container .contents {
+  display: block;
   width: 740px;
 }
 .container .table-of-contents {
+  display: block;
   padding: 0px;
   border-left: 2px solid #efefef;
   width: 280px;
@@ -1132,11 +1134,13 @@ a{
 }
 
 .container .table-of-contents aa {
+  display: block;
   font-family: fantasy;
   font-size: 24px;
   color: hsla(38, 100%, 49%, 0.718);
 }
 .container .table-of-contents ul {
+  display: block;
   list-style: none;
   padding-left: 0;
   margin-left: 25px;
@@ -1146,9 +1150,11 @@ a{
   color: #ff0505;
 }
 .container .table-of-contents ul a {
+  display: block;
   color: #15c7fd;
 }
 .container .table-of-contents ul a:hover {
+  display: block;
   color: #24fff4;
   text-decoration: underline;
 }
@@ -1159,11 +1165,13 @@ a{
     width: 100%;
   }
   .post-content .container .contents {
+    display: block;
     width: 100%;
     float: none;
     margin: 0 auto;
   }
   .post-content .container .table-of-contents {
+    display: block;
     display: none;
   }
 
@@ -1172,7 +1180,7 @@ a{
 
 
 
-  
+
   /*处理pc端与移动端的显示*/
   #pc{
     display: block;
