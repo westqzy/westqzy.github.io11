@@ -1117,6 +1117,7 @@ a{
 }
 .container .contents {
   width: 740px;
+  display: none;
 }
 .container .table-of-contents {
   padding: 0px;
