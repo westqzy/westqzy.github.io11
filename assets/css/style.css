@@ -1155,6 +1155,7 @@ a{
 @media screen and (max-width: 1060px) {
   .post-content .container {
     width: 100%;
+    display: none;
   }
   .post-content .container .contents {
     width: 100%;
