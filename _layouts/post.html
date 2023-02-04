@@ -30,6 +30,11 @@
     {% endif %}
   {% endif %}
     
+    <!-- 网易云 -->
+    {% if page.music-id %}
+      {% include cloud-music.html %}
+    {% endif %} 
+    <!-- toc -->
     {% if page.toc==true %}
       <div class="container">  
         <div class="contents">  
