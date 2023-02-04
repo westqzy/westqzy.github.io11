@@ -1154,6 +1154,7 @@ a{
 
 @media screen and (max-width: 800px) {
   .post-content .container {
+    width: 800px;
     background-color: blue;
     width: 100%;
   }
