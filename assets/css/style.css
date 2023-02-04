@@ -1140,16 +1140,16 @@ a{
 .container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
-  color: rgb(252, 0, 25);
+  color: hsla(38, 100%, 49%, 0.718);
 }
 .container .table-of-contents ul {
   list-style: none;
   padding-left: 0;
-  margin-left: 20px;
+  margin-left: 25px;
   list-style-type: revert; 
   font-size: 18px;
   line-height: 24px;
-  color: #d4ff15;
+  color: #ff0505;
 }
 .container .table-of-contents ul a {
   color: #15c7fd;
