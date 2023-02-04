@@ -1103,13 +1103,6 @@ a{
 }
 
 
-/*处理pc端与移动端的显示*/
-#pc{
-  display: block;
-}
-#media{
-  display: none;
-}
 
 
 
@@ -1171,6 +1164,20 @@ a{
     margin: 0 auto;
   }
   .post-content .container .table-of-contents {
+    display: none;
+  }
+
+
+
+
+
+
+  
+  /*处理pc端与移动端的显示*/
+  #pc{
+    display: block;
+  }
+  #media{
     display: none;
   }
 }
