@@ -1152,7 +1152,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 1050px) {
   .post-content .container {
     width: 100%;
 
