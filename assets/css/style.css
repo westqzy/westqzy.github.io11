@@ -1128,7 +1128,6 @@ a{
   margin-bottom: 80px;
   height: fit-content;
   margin-left: 40px;
-  display: none;
 }
 
 .container .table-of-contents aa {
@@ -1153,7 +1152,7 @@ a{
   text-decoration: underline;
 }
 
-@media screen and (max-width: 1060px) {
+@media screen and (max-width: 600px) {
   .post-content .container {
     width: 100%;
     display: none;
