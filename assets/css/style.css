@@ -1129,12 +1129,14 @@ a{
   margin-bottom: 80px;
   height: fit-content;
   margin-left: 40px;
+  display: none;
 }
 
 .container .table-of-contents aa {
   font-family: fantasy;
   font-size: 24px;
   color: hsla(38, 100%, 49%, 0.718);
+  display: none;
 }
 .container .table-of-contents ul {
   list-style: none;
